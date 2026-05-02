@@ -7,11 +7,11 @@ body {
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   color: #222222;
-  background: #f4f6f8;
+  background: #eef3f7;
 }
 
 .page-header {
-  padding: 32px 20px 18px;
+  padding: 30px 20px 18px;
   text-align: center;
   background: #ffffff;
   border-bottom: 1px solid #dde3ea;
@@ -54,12 +54,12 @@ body {
   color: #ffffff;
   font-weight: 700;
   cursor: pointer;
-  background: #146c94;
-  border-color: #146c94;
+  background: #146b6f;
+  border-color: #146b6f;
 }
 
 .controls button:hover {
-  background: #0f5879;
+  background: #0f5659;
 }
 
 .product-list {
@@ -76,7 +76,7 @@ body {
   background: #ffffff;
   border: 1px solid #d7e0e8;
   border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(20, 45, 70, 0.08);
+  box-shadow: 0 6px 16px rgba(20, 45, 70, 0.08);
 }
 
 .card img {
@@ -107,7 +107,7 @@ body {
 
 .card-price {
   margin: 0;
-  color: #0d5f43;
+  color: #0d6846;
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -121,7 +121,7 @@ body {
 
 .card-actions button {
   min-height: 38px;
-  border: 1px solid #146c94;
+  border: 1px solid #146b6f;
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
@@ -129,17 +129,17 @@ body {
 
 .btn-details {
   color: #ffffff;
-  background: #146c94;
+  background: #146b6f;
 }
 
 .btn-highlight {
-  color: #146c94;
+  color: #146b6f;
   background: #ffffff;
 }
 
 .highlight {
   border-color: #f2b705 !important;
-  background: #fff8dc;
+  background: #fff7d7;
   box-shadow: 0 12px 28px rgba(153, 104, 0, 0.22);
 }
 

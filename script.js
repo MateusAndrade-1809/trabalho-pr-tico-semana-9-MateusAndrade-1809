@@ -2,74 +2,74 @@ const data = {
   produtos: [
     {
       id: 1,
-      nome: "Smartphone Orion X",
+      nome: "Celular Galaxy A15",
       preco: 1999.9,
       categoria: "Celulares",
       imagem: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
-      descricao: "Celular com tela AMOLED, 128 GB de armazenamento e camera dupla.",
+      descricao: "Celular para o dia a dia, com boa bateria, 128 GB e camera dupla.",
       emEstoque: true
     },
     {
       id: 2,
-      nome: "Notebook Atlas Pro",
+      nome: "Notebook Lenovo Ideapad",
       preco: 4599.99,
       categoria: "Notebooks",
       imagem: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
-      descricao: "Notebook leve com SSD de 512 GB, 16 GB de RAM e processador de alta performance.",
+      descricao: "Notebook bom para estudar, programar e fazer trabalhos da faculdade.",
       emEstoque: true
     },
     {
       id: 3,
-      nome: "Headset Pulse Gamer",
+      nome: "Fone Gamer com Microfone",
       preco: 249.9,
       categoria: "Acessorios",
       imagem: "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=800&q=80",
-      descricao: "Headset com microfone removivel, som surround e almofadas confortaveis.",
+      descricao: "Fone com microfone para jogar, conversar online e assistir aulas.",
       emEstoque: true
     },
     {
       id: 4,
-      nome: "Console Nova Play",
+      nome: "Console PlayStation 5",
       preco: 3799.0,
       categoria: "Games",
       imagem: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=800&q=80",
-      descricao: "Console de nova geracao com controle sem fio e suporte a jogos em 4K.",
+      descricao: "Console para jogos atuais, com controle sem fio e boa qualidade de imagem.",
       emEstoque: false
     },
     {
       id: 5,
-      nome: "Mouse Precision RGB",
+      nome: "Mouse Logitech sem Fio",
       preco: 159.9,
       categoria: "Acessorios",
       imagem: "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
-      descricao: "Mouse ergonomico com sensor ajustavel, botoes programaveis e iluminacao RGB.",
+      descricao: "Mouse simples e confortavel para usar no notebook ou no computador.",
       emEstoque: true
     },
     {
       id: 6,
-      nome: "Notebook Studio 14",
+      nome: "Notebook Dell Inspiron",
       preco: 5299.9,
       categoria: "Notebooks",
       imagem: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
-      descricao: "Notebook compacto para estudos, design e programacao, com bateria de longa duracao.",
+      descricao: "Notebook para estudo e tarefas do dia a dia, com SSD e tela de 15 polegadas.",
       emEstoque: true
     },
     {
       id: 7,
-      nome: "Controle Turbo Wireless",
+      nome: "Controle Xbox Wireless",
       preco: 299.0,
       categoria: "Games",
       imagem: "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=800&q=80",
-      descricao: "Controle sem fio com gatilhos precisos, vibracao e bateria recarregavel.",
+      descricao: "Controle sem fio para jogar no console ou no PC.",
       emEstoque: true
     },
     {
       id: 8,
-      nome: "Smartphone Vega Lite",
+      nome: "Celular Motorola G54",
       preco: 1299.5,
       categoria: "Celulares",
       imagem: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
-      descricao: "Smartphone intermediario com 64 GB, leitor digital e carregamento rapido.",
+      descricao: "Celular intermediario com leitor digital, bom armazenamento e carregamento rapido.",
       emEstoque: false
     }
   ]
@@ -163,6 +163,7 @@ function renderProducts(produtos) {
 
   const cards = document.querySelectorAll(".card");
   cards.forEach((card) => {
+    // Conferencia pedida na atividade usando querySelectorAll.
     console.log("Card renderizado - data-id:", card.getAttribute("data-id"));
     card.style.transition = "transform 0.2s ease, box-shadow 0.2s ease";
   });
